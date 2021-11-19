@@ -43,7 +43,7 @@ def write_data(parsed_data):
 	average_processing_time = round(sum_processing_time / image_id, 3)
 
 	st.write("""Average processing time:  """ + str(average_processing_time)+"ms")
-	st.write("""Average communication time:  """ + str(average_processing_time)+"ms")
+	st.write("""Average communication time:  """ + str(average_communication_time)+"ms")
 
 	st.write("""Filename:  """ + str(filename))
 	st.write("""Detected text:  """ )
